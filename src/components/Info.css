@@ -1,0 +1,73 @@
+.span_header_text{
+    color:orangered;
+} 
+/* header stylecss */
+.header_text{
+    font-size: 26px;
+    margin-top: 80px;
+    color: #8c8c8c;
+}
+.header_text2{
+    font-size: 26px;
+    color: #2d3436;
+    margin-bottom: 70px;
+}
+.hire_me{
+    width: 160px;
+    height: 40px;
+    background: #ff7230;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    transition: all 0.3s linear; 
+   -webkit-transition: all 0.3s linear; 
+
+}
+.hire_me:hover{
+    background: white;
+    color: #ff7230;
+    border: 1px solid #ff7230;
+}
+.about_me:hover{
+    background: #ff7230;
+    color:white;
+    border: none;
+}
+.about_me{
+    width: 160px;
+    height: 40px;
+    background:white;
+    color: #ff7230;
+    text-transform: capitalize;
+    border: none;
+    outline: 1px solid #ff7230;
+    transition: all 0.3s linear; 
+   -webkit-transition: all 0.3s linear; 
+}
+    .right_container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+    }
+
+
+@media(max-width:998px){
+   
+    .right_container{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+.header_mail>p:first-child{
+margin-top: 40px;
+font-size: 20px;
+color: #000;
+font-weight: 400;
+}
+.header_mail>p:nth-child(2){
+    margin-top: -20px;
+}
+
+

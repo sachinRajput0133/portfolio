@@ -1,0 +1,30 @@
+.left_img>img{
+    height: 300px;
+}
+.about_sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main_title h1{
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+
+    
+}
+.about_text{
+    margin-top: -20px;
+}
+.about_text>h1{
+    font-size: 30px;
+    font-weight: 200;
+    color: #000;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.about_text>p{
+    font-size: 24px;
+    color: #000;
+    font-weight: 200;
+}
